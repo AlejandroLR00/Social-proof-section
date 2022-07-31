@@ -14,30 +14,93 @@ body{
     font-family: 'League Spartan', sans-serif;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .attribution {
-  font-size: 11px;
-  text-align: center;
+.container{
+    /* outline: 1px solid; */
+    margin: 0 2em 5em;
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
-} */
+
+.sumary{
+    text-align: center;
+    font-weight: 700;
+}
+
+h1{
+    color: var(--Very-Dark-Magenta);
+    font-size: 2.7em;
+    margin: 0 .3em .7em .3em;
+    line-height: .8;
+}
+
+.sumary{
+    margin-bottom: 3em;
+}
+
+.sumary__text{
+    color: var(--Dark-Grayish-Magenta);
+    line-height: 1.5em;
+    font-size: 1.12em;
+    font-weight: 500;
+}
+
+.ranks{
+    margin-bottom: 3em;
+}
+
+.ranks__card{
+    background-color: var(--Light-Grayish-Magenta);
+    color: var(--Very-Dark-Magenta);
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 700;
+    padding: 1em 0; 
+    margin-bottom: 1em;
+    border-radius: 10px;
+}
+
+.card__user{
+    background-color: var(--Very-Dark-Magenta);
+    border-radius: 10px;
+    margin-bottom: 2em;
+    color: var(--White);
+    padding: 1em 2em 2em;
+}
+
+.user--img{
+    position: relative;
+    top: 23px;
+    border-radius: 50%;
+    width: 15%;
+    margin-right: 1em;
+}
+
+.user__name{
+    font-weight: 700;
+}
+
+.user__reviews{
+    position: relative;
+    display: block;
+    color: var(--Soft-Pink);
+    left: 56px;
+}
+.user__paragraph{
+    margin-top: 1.5em;
+    font-size: 1.1em;
+}
+
+.main{
+    padding-top: 5em;
+    height: 100%;
+    position: relative;
+}
+
+.img__top{
+    position: absolute;
+    top: 0;
+}
+
+.img__bottom{
+    position: absolute;
+    bottom: 0;
+}

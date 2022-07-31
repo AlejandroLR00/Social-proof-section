@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="style/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap" rel="stylesheet">
 
     <title>Frontend Mentor | Social proof section</title>
 
@@ -25,6 +25,11 @@
   <body>
 
     <main class="main">
+
+      <picture>
+        <source media="(min-width: 600px)" srcset="images/bg-pattern-top-desktop.svg">
+        <img  class="img__top" src="images/bg-pattern-top-mobile.svg" alt="">
+      </picture>
 
       <article class="container">
 
@@ -38,17 +43,32 @@
 
         <section class="ranks">
           <div class="ranks__card ranks--rigth1">
+            <img src="images/icon-star.svg" alt="" class="ranks__star">
+            <img src="images/icon-star.svg" alt="" class="ranks__star">
+            <img src="images/icon-star.svg" alt="" class="ranks__star">
+            <img src="images/icon-star.svg" alt="" class="ranks__star">
+            <img src="images/icon-star.svg" alt="" class="ranks__star">
             <p class="ranks__text">
               Rated 5 Stars in Reviews
             </p>
           </div>
           <div class="ranks__card ranks--rigth2">
+            <img src="images/icon-star.svg" alt="" class="ranks__star">
+            <img src="images/icon-star.svg" alt="" class="ranks__star">
+            <img src="images/icon-star.svg" alt="" class="ranks__star">
+            <img src="images/icon-star.svg" alt="" class="ranks__star">
+            <img src="images/icon-star.svg" alt="" class="ranks__star">
             <p class="ranks__text">
               Rated 5 Stars in Report Guru
 
             </p>
           </div>
           <div class="ranks__card ranks--rigth3">
+            <img src="images/icon-star.svg" alt="" class="ranks__star">
+            <img src="images/icon-star.svg" alt="" class="ranks__star">
+            <img src="images/icon-star.svg" alt="" class="ranks__star">
+            <img src="images/icon-star.svg" alt="" class="ranks__star">
+            <img src="images/icon-star.svg" alt="" class="ranks__star">
             <p class="ranks__text">
               Rated 5 Stars in BestTech
             </p>
@@ -57,9 +77,10 @@
 
         <section class="card">
           <div class="card__user">
-            <img src="images/image-colton.jpg" alt="" class="user--img">
-            <span class="user__name">Colton Smith</span>
-            <span class="user__reviews">Verified Buyer</span>
+            <img src="images/image-colton.jpg" alt="user" class="user--img">
+              <span class="user__name">Colton Smith</span>
+              <span class="user__reviews">Verified Buyer</span>
+
             <p class="user__paragraph">
               "We needed the same printed design as the one we had ordered a week prior.
               Not only did they find the original order, but we also received it in time.
@@ -67,7 +88,7 @@
             </p>
           </div>
           <div class="card__user">
-            <img src="images/image-irene.jpg" alt="" class="user--img">
+            <img src="images/image-irene.jpg" alt="user" class="user--img">
             <span class="user__name">Irene Roberts</span>
             <span class="user__reviews">Verified Buyer</span>
             <p class="user__paragraph">
@@ -76,7 +97,7 @@
             </p>
           </div>
           <div class="card__user">
-            <img src="images/image-anne.jpg" alt="" class="user--img">
+            <img src="images/image-anne.jpg" alt="user" class="user--img">
             <span class="user__name">Anne Wallace </span>
             <span class="user__reviews">Verified Buyer</span>
             <p class="user__paragraph">
@@ -87,15 +108,13 @@
         </section>
 
       </article>
+      
+      <picture>
+        <source media="(min-width: 600px)" srcset="images/bg-pattern-bottom-desktop.svg">
+        <img class="img__bottom" src="images/bg-pattern-bottom-mobile.svg" alt="">
+      </picture>
 
     </main>
 
-
-    <!-- <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div> -->
   </body>
 </html>
