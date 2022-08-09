@@ -84,6 +84,7 @@ h1{
     color: var(--Soft-Pink);
     left: 56px;
 }
+
 .user__paragraph{
     margin-top: 1.5em;
     font-size: 1.1em;
@@ -98,9 +99,99 @@ h1{
 .img__top{
     position: absolute;
     top: 0;
+    left: 0;
 }
 
 .img__bottom{
     position: absolute;
     bottom: 0;
+    right: 0;
+}
+
+@media screen and (min-width:800px){
+
+    /* .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    .container{
+        margin: 3rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .sumary{
+        width: 50%;
+        text-align: start;
+        padding: 0 10em 0 1.5em;
+    }
+
+    h1{
+        font-size: 5em;
+        font-weight: 700;
+        margin-left: 0;
+    }
+
+    .sumary__text{
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+
+    .ranks{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .ranks__card{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 1.3em;
+        position: relative;
+    }
+
+    .ranks--rigth1{
+        right: 3em;
+    }
+
+    .ranks--rigth3{
+        left: 4em;
+    }
+
+    .ranks__star{
+        margin-left: .5em;
+    }
+
+    .ranks__text{
+        margin-left: 4em;
+    }
+
+    .card{
+        display: flex;
+    }
+
+    .card__user{
+        margin: 0 1rem 0 1rem;
+        position: relative;
+    }
+
+    .user__reviews{
+        left: 5.3em;
+    }
+
+    .card--rigth2{
+        top: 2em;
+    }
+
+    .card--rigth3{
+        top: 4em;
+    }
+    
 }
